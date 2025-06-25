@@ -31,7 +31,7 @@ module OasRails
 
     def build
       clear_cache
-      Rails.logger.info "*********** Configuring OasRails **************** #{config.route_extractor.class.name}"
+      Rails.logger.info "*********** Configuring OasRails **************** #{config.route_extractor.name}"
       OasCore.config = config
 
       host_routes = Extractors::RouteExtractor.host_routes
