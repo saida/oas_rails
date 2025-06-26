@@ -12,6 +12,8 @@ gem 'sprockets-rails'
 
 gem 'rack-cors'
 
+gem 'deep_merge', '= 1.2.2', require: 'deep_merge/rails_compat'
+
 gem 'rails', '~> 8.0', '>= 8.0.2'
 
 group :development, :test do
